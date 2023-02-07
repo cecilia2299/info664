@@ -166,6 +166,10 @@ schedule = {
 #Then loop through each class and print it out.
 for i in schedule:
 	print(i)
+	for room in sorted(schedule[i]):
+		print(room)
+		for a in schedule[i][room]:
+			print(a['class'])
 #output sample:
 
 # ❯ python3 pratt_schedule3.py

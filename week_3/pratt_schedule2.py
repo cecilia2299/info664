@@ -7,18 +7,11 @@ schedule = {
 
 
 #loop through each day in schedule, print the name of the day, and then loop through all the class names and print them out
-print('monday')
-for i in schedule['monday']:
-	print(i)
-print('tuesday')
-for i in schedule['tuesday']:
-	print(i)
-print('wednesday')
-for i in schedule['wednesday']:
-	print(i)
-print('thursday')
-for i in schedule['thursday']:
-	print(i)
+for day in schedule:
+	print(day)
+	for c in schedule[day]:
+		print(c)
+
 #output sample:
 
 # ❯ python3 pratt_schedule2.py

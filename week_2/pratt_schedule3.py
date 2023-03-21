@@ -169,5 +169,5 @@ schedule = {
 # ❯ python3 pratt_schedule3.py
 # Human-Information Behavior - Pattuelli - 6.5
 
-print(schedule['wednesday'][612][0])
+print(schedule['wednesday'][612][0], sep='-')
 

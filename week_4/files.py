@@ -11,3 +11,4 @@ with open ("Artworks.csv",'r') as art_file:
 #print(my_result_dict)
 for bla in my_result_dict:
     print(f'{bla}:{my_result_dict[bla]}')
+    
